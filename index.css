@@ -92,8 +92,8 @@ body {
 
 .centerimg {
   background: url(images/top-image.png);
-  width: 710px;
-  height: 300px;
+  width: 1000px;
+  height: 350px;
   margin: 1px;
   background-size: cover;
 
@@ -104,4 +104,99 @@ body {
   margin: 5px;
   position: relative;
   top: 55px;
+}
+
+/*BUTTONS*/
+.buttons {
+  width: 200px;
+  margin: 5px;
+}
+.button1, .button2, .button3 {
+  display: inline-block;
+
+}
+
+.button1 {
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 100%;
+  height: 22px;
+  width: 22px;
+  position:relative;
+  left: 400px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+
+}
+
+
+.redbutton {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  top: 4px;
+  left: 4px;
+  margin: 1px;
+
+}
+
+.redbutton:hover {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: red;
+
+}
+
+
+.button2 {
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 100%;
+  height: 22px;
+  width: 22px;
+  position:relative;
+  left: 420px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+
+}
+
+
+.button3 {
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 100%;
+  height: 22px;
+  width: 22px;
+  position: relative;
+  left: 320px;
+
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+/*ARTICLES*/
+
+.articles {
+  width: 99%;
+}
+section {
+  display: inline-block;
+  width: 32%;
+  margin: 0px 0px 0px 10px;
+  background-color: white;
+}
+
+h1{
+  font-size: 32px;
+}
+
+.articles p {
+  font-size: 55px;
 }
