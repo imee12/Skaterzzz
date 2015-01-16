@@ -96,8 +96,12 @@ body {
   height: 300px;
   margin: 1px;
   background-size: cover;
+
 }
 
-.zoom {
-  zoom: 140%;
+.centerimg img {
+  width: 40%;
+  margin: 5px;
+  position: relative;
+  top: 55px;
 }
