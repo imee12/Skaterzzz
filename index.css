@@ -361,12 +361,12 @@ h2 {
 /*FORM SECTION*/
 
 .form {
-  height: 200px;
-  width: 850px;
+  height: 340px;
+  width: 870px;
   background-color: white;
   position: relative;
   top: 380px;
-  left: 275px;
+  left: 290px;
   padding: 5px;
   font-style: Tahoma;
   font-size: 12px;
@@ -375,15 +375,21 @@ h2 {
   box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 }
 
+h3 {
+  font-size: 22px;
+}
 
-.formpara, .formfill{
-  width: 40%;
+.formpara {
+  width: 45%;
   display: block;
+  padding: 10px;
+  font-size: 12px;
+  font-family: Tahoma;
 }
 
 .footernav {
   position: relative;
-  right: 40px;
+  right: 20px;
   bottom: 10px;
 }
 
@@ -397,7 +403,7 @@ h2 {
   display: inline-block;
 }
 
-
+/*
 .formfill {
   position: relative;
   top: 170px;
@@ -438,21 +444,22 @@ h2 {
 
 
 }
-/*
-/* Basic Grey *//*
+
+/* Basic Grey */
 .basic-grey {
-  margin-left:auto;
-  margin-right:auto;
-  width: 400px;
-  background: #F7F7F7;
-  padding: 25px 15px 25px 10px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+  width: 350px;
+  height: 300px;
+  background: white;
+  padding: 10px 10px 10px 10px;
   font: 15px Georgia, "Times New Roman", Times, serif;
-  color: #888;
+  color: #ad3232;
   text-shadow: 1px 1px 1px #FFF;
   border:1px solid #E4E4E4;
   position: relative;
-  top: 200px;
-  left: 800px;
+  top: 40px;
+  left: 740px;
 }
 .basic-grey h1 {
   font-size: 25px;
@@ -523,6 +530,5 @@ h2 {
   cursor: pointer;
 }
 .basic-grey .button:hover {
-  background: #CF7A7A
+  background: #CF7A7A;
 }
-*/
