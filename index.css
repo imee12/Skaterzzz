@@ -355,6 +355,9 @@ h2 {
 
 }
 
+.skateboards2{
+  display: none;
+}
 .skateboards {
   height: 300px;
   width: 880px;
@@ -551,20 +554,19 @@ h3 {
 
 @media screen and (max-width: 321px) {
 
-  /*body {
+  body {
 
-    width: 400px;
+    width: 320px;
 
-    background: linear-gradient(
+    background: linear-gradient (
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
       ),
       url(images/bg.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
+      background-color: #e4e4e4;
 
 
-    }*/
+    }
 
   .subscribe {
     /*width: 13%;
@@ -605,6 +607,63 @@ h3 {
   width: 300px;
   margin: 5px;
   padding: 5px;
+}
+
+.articles {
+  width: 300px;
+}
+
+.readmore {
+  text-align: center;
+}
+
+.readmore a{
+  color: #ad3232;
+  font-size: 17px;
+
+}
+
+
+.skateboards {
+  display: none;
+}
+.skateboards2 {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  position: relative;
+  margin: 5px;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+}
+
+.skateboards2 img {
+  margin: 2px;
+  padding: 2px;
+}
+
+.form {
+  display: none;
+}
+
+.basic-grey {
+  display: none;
+}
+
+.hornav2 a {
+  display: inline-block:
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.hornav2 li {
+  list-style-type: none;
+  display: inline-block;
+}
+.hornav2 img {
+  width: 32px;
 }
 
 }
