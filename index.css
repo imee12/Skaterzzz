@@ -194,35 +194,45 @@ body {
 /*ARTICLES*/
 
 .articles {
-  width: 99%;
+  width: 75%;
+  position: relative;
+  bottom: 80px;
+  left: 270px;
 
+/*  font-size:14px;
+  padding:3px;
+
+  background-color: white;
+
+
+  /*left: 50px;*/
+/*}*/
 
 }
 section {
   display: inline-block;
-  width: 28%;
-  height: 450px;
-  margin: 0px 0px 0px 50px;
+  width: 260px;
+  height: 300px;
+  margin: 0px 0px 0px 10px;
   background-color: white;
   vertical-align: top;
+  padding: 5px;
 }
 
 
 h1{
-  font-size: 32px;
+  font-size: 26px;
 }
 
 
 h2 {
   color: gray;
-  font-size: 20px;
+  font-size: 14px;
   vertical-align: top;
 
+
 }
-.articles {
-  font-size: 18px;
-  padding: 3px;
-}
+
 
 .readmore {
 
