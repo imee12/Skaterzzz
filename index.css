@@ -1,9 +1,9 @@
-* {
+/** {
   border: 1px dotted red;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-    }
+    }*/
 
 body {
   height: 2000px;
@@ -12,6 +12,9 @@ body {
   background: url(images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: 0px 5px 0px 0px rgba(138,135,138,1);
+  -moz-box-shadow: 0px 5px 0px 0px rgba(138,135,138,1);
+  box-shadow: 0px 5px 0px 0px rgba(138,135,138,1);
 }
 
 .subscribe, .vertnav {
@@ -51,6 +54,7 @@ body {
   position: relative;
   bottom: 100px;
 
+
 }
 .subscribe a {
   font-size: 10px;
@@ -72,6 +76,9 @@ body {
 
 .hornav img {
   width: 40px;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 
 }
 .hornav li {
@@ -84,27 +91,38 @@ body {
   position: relative;
   bottom: 75px;
   left: 200px;
+
 }
 
 .bar1, .bar2, .bar3, .bar4 {
-  width: 199px;
+  width: 200px;
   height: 35px;
-  background-color: red;
+  background-color: #ad3232;
   display: inline-block;
+  font-size: 18px;
+  font-family: Tahoma;
   text-align: center;
   color: white;
-  padding: 8px;
+  padding: 10px;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+
+
 
 }
 
 .centerimg {
   background: url(images/top-image.png);
-  width: 800px;
+  width: 870px;
   height: 320px;
   margin: 1px;
   background-size: 1050px;
   background-repeat: no-repeat;
-  /*background-position: 100px 0px;*/
+  border: 7px solid white;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 
 }
 
@@ -133,7 +151,7 @@ body {
   height: 20px;
   width: 20px;
   position:relative;
-  left: 400px;
+  left: 460px;
   -webkit-box-shadow: 1px 1px 2px 3px #ccc;
   -moz-box-shadow:    1px 1px 2px 3px #ccc;
   box-shadow:         1px 1px 2px 3px #ccc;
@@ -184,7 +202,7 @@ body {
   height: 20px;
   width: 20px;
   position: relative;
-  left: 320px;
+  left: 360px;
 
   -webkit-box-shadow: 1px 1px 2px 3px #ccc;
   -moz-box-shadow:    1px 1px 2px 3px #ccc;
@@ -217,6 +235,9 @@ section {
   background-color: white;
   vertical-align: top;
   padding: 5px;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 }
 
 
@@ -257,11 +278,19 @@ h2 {
 .box1{
   background: url(images/lanceEDIT.png);
   background-size: cover;
+  border:4px solid white;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 }
 
 .box2 {
   background: url(images/rodneyEDIT.png);
   background-size:cover;
+  border:4px solid white;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 }
 .box1, .box2 {
   width: 280px;
@@ -284,6 +313,10 @@ h2 {
   bottom: 485px;
   left: 800px;
   margin: 2px;
+  border:4px solid white;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 }
 
 
@@ -296,6 +329,10 @@ h2 {
   position: relative;
   left: 230px;
   bottom: 80px;
+  border:4px solid white;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 
 }
 
@@ -304,8 +341,11 @@ h2 {
   width: 840px;
   background-color: white;
   position: relative;
-  top: 350px;
-  left: 280px;
+  top: 360px;
+  left: 290px;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 }
 
 .skateboards img {
@@ -320,11 +360,14 @@ h2 {
   width: 850px;
   background-color: white;
   position: relative;
-  top: 360px;
+  top: 380px;
   left: 275px;
   padding: 5px;
   font-style: Tahoma;
   font-size: 12px;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  -moz-box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
+  box-shadow: -1px 3px 5px 0px rgba(166,161,166,1);
 }
 
 
@@ -336,7 +379,7 @@ h2 {
 .footernav {
   position: relative;
   right: 40px;
-  bottom: 20px;
+  bottom: 10px;
 }
 
 .footernav img{
@@ -357,6 +400,6 @@ h2 {
 }
 
 .formfill3{
-  width: 100px;
+  width: 60px;
   height: 100px;
 }
