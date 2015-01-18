@@ -255,12 +255,12 @@ h2 {
 
 
 .box1{
-  background: url(images/lance.png);
+  background: url(images/lanceEDIT.png);
   background-size: cover;
 }
 
 .box2 {
-  background: url(images/rodney.png);
+  background: url(images/rodneyEDIT.png);
   background-size:cover;
 }
 .box1, .box2 {
@@ -290,7 +290,7 @@ h2 {
 .box3 {
   width: 560px;
   height: 200px;
-  background: url(images/cabell.png);
+  background: url(images/cabellEDIT.png);
   background-size: cover;
   margin: 5px;
   position: relative;
