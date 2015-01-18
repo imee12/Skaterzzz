@@ -301,15 +301,15 @@ h2 {
 
 .skateboards {
   height: 300px;
-  width: 1100px;
+  width: 840px;
   background-color: white;
   position: relative;
-  top: 620px;
-  left: 55px;
+  top: 350px;
+  left: 280px;
 }
 
 .skateboards img {
-  margin: 10px;
+  margin: 8px;
 }
 
 
@@ -317,21 +317,31 @@ h2 {
 
 .form {
   height: 200px;
-  width: 1100px;
+  width: 850px;
   background-color: white;
   position: relative;
-  top: 650px;
-  left: 55px;
+  top: 360px;
+  left: 275px;
+  padding: 5px;
+  font-style: Tahoma;
+  font-size: 12px;
 }
 
 
 .formpara, .formfill{
-  width: 35%;
+  width: 40%;
   display: block;
 }
+
+.footernav {
+  position: relative;
+  right: 40px;
+  bottom: 20px;
+}
+
 .footernav img{
-  height: 15px;
-  width: 15px;
+  height: 25px;
+  width: 25px;
 }
 
 .footernav li{
@@ -341,8 +351,9 @@ h2 {
 
 .formfill {
   position: relative;
-  top: 500px;
-  left: 500px;
+  top: 170px;
+  left: 620px;
+  border: 1px gray solid;
 }
 
 .formfill3{
